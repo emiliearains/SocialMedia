@@ -1,4 +1,5 @@
 ﻿using SocialMedia.Data;
+using SocialMedia.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -20,7 +21,6 @@ namespace SocialMedia.Services
             var entity =
                 new Post()
                 {
-                    PostId = model.PostId,
                     Title = model.Title,
                     Text = model.Text,
                     AuthorId = _userId
@@ -45,7 +45,6 @@ namespace SocialMedia.Services
                                 {
                                     PostId = e.PostId,
                                     Title = e.Title,
-                                    Text = e.Text
                                 }
                        );
                 return query.ToArray();
