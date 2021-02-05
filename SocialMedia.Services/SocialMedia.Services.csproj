@@ -66,6 +66,10 @@
       <Project>{19d0cb1b-5bae-42fd-8bee-4f114c64c500}</Project>
       <Name>SocialMedia.Data</Name>
     </ProjectReference>
+    <ProjectReference Include="..\SocialMedia.Models\SocialMedia.Models.csproj">
+      <Project>{7b239652-173c-409c-ab51-12dd8db21d1f}</Project>
+      <Name>SocialMedia.Models</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
