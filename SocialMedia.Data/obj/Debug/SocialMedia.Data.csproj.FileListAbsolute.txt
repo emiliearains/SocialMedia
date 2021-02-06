@@ -67,11 +67,7 @@ C:\ElevenFiftyProjects\BlueBadge\SocialMedia\SocialMedia.Data\bin\Debug\System.N
 C:\ElevenFiftyProjects\BlueBadge\SocialMedia\SocialMedia.Data\bin\Debug\System.Web.Http.xml
 C:\ElevenFiftyProjects\BlueBadge\SocialMedia\SocialMedia.Data\bin\Debug\System.Web.Http.Owin.xml
 C:\ElevenFiftyProjects\BlueBadge\SocialMedia\SocialMedia.Data\obj\Debug\SocialMedia.Data.csprojAssemblyReference.cache
-C:\ElevenFiftyProjects\BlueBadge\SocialMedia\SocialMedia.Data\obj\Debug\SocialMedia.Data.Migrations.InitialCreate.resources
-C:\ElevenFiftyProjects\BlueBadge\SocialMedia\SocialMedia.Data\obj\Debug\SocialMedia.Data.Migrations.InitialMigration.resources
-C:\ElevenFiftyProjects\BlueBadge\SocialMedia\SocialMedia.Data\obj\Debug\SocialMedia.Data.csproj.GenerateResource.cache
 C:\ElevenFiftyProjects\BlueBadge\SocialMedia\SocialMedia.Data\obj\Debug\SocialMedia.Data.csproj.CoreCompileInputs.cache
 C:\ElevenFiftyProjects\BlueBadge\SocialMedia\SocialMedia.Data\obj\Debug\SocialMedia.Data.csproj.CopyComplete
 C:\ElevenFiftyProjects\BlueBadge\SocialMedia\SocialMedia.Data\obj\Debug\SocialMedia.Data.dll
 C:\ElevenFiftyProjects\BlueBadge\SocialMedia\SocialMedia.Data\obj\Debug\SocialMedia.Data.pdb
-C:\ElevenFiftyProjects\BlueBadge\SocialMedia\SocialMedia.Data\obj\Debug\SocialMedia.Data.Migrations.trial.resources

@@ -13,7 +13,7 @@ namespace SocialMedia.Data
         [Key]
         public int PostId { get; set; }
 
-        public virtual List<Comment> Comments { get; set; } = new List<Comment>();
+        //public virtual List<Comment> Comments { get; set; } = new List<Comment>();
 
         [Required]
         public string Title { get; set; }
@@ -23,5 +23,6 @@ namespace SocialMedia.Data
                               // ................virtual list of Comments
         [Required]
         public Guid AuthorId { get; set; }
+        public virtual List<Comment> Comments { get; set; } = new List<Comment>();
     }
 }
