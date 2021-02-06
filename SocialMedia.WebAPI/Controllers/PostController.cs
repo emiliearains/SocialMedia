@@ -13,12 +13,14 @@ namespace SocialMedia.WebAPI.Controllers
     [Authorize]
     public class PostController : ApiController
     {
+        
         public IHttpActionResult Get()
         {
             PostService postService = CreatePostService();
             var posts = postService.GetPosts();
             return Ok(posts);
         }
+
         public IHttpActionResult Post(PostCreate post)
         {
             if (!ModelState.IsValid)
