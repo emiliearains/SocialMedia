@@ -8,17 +8,15 @@ using System.Net;
 using System.Net.Http;
 using System.Web.Http;
 
-// TO-DO: get comments by postID
-
 namespace SocialMedia.WebAPI.Controllers
 {
     [Authorize]
     public class CommentController : ApiController
     {
-        public IHttpActionResult Get(int userId)
+        public IHttpActionResult Get(int postId)
         {
             CommentService commentService = CreateCommentService();
-            var comments = commentService.GetComments(userId);
+            var comments = commentService.GetComments(postId);
             return Ok(comments);
         }
         public IHttpActionResult Post(CommentCreate comment)

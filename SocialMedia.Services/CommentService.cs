@@ -22,7 +22,8 @@ namespace SocialMedia.Services
                 new Comment()
                 {
                     Text = model.Text,
-                    AuthorId = _userId
+                    AuthorId = _userId,
+                    PostId = model.PostId
                 };
             using (var ctx = new ApplicationDbContext())
             {
@@ -40,13 +41,14 @@ namespace SocialMedia.Services
                 var query =
                     ctx
                         .Comments
-                        .Where(e => e.PostId == (postId))
+                        .Where(e => e.PostId == postId)
                         .Select(
                             e =>
                                 new CommentListItem
                                 {
                                     CommentId = e.CommentId,
                                     Text = e.Text,
+                                    PostId = postId,
                                 }
                         );
                 return query.ToArray();
