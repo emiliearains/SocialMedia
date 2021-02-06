@@ -17,7 +17,5 @@ namespace SocialMedia.Models
         [Required]
         [MaxLength(1000)]
         public string Text { get; set; }
-
-        // public Guid AuthorId { get; set; }
     }
 }
