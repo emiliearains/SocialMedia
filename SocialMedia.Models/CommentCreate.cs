@@ -1,27 +1,20 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
-using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SocialMedia.Data
+namespace SocialMedia.Models
 {
-    public class Comment
+    public class CommentCreate
     {
-        [Key]
-        public int CommentId { get; set; }
-
         [Required]
+        [MaxLength(1000, ErrorMessage = "Maximum comment length is 1000.")]
         public string Text { get; set; }
-
+        
         [Required]
-        public Guid AuthorId { get; set; }
-
-        [ForeignKey(nameof(Post))]
         public int PostId { get; set; }
-        public virtual Post Post { get; set; }
-
+        public int CommentId { get; set; }
     }
 }

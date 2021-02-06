@@ -36,3 +36,5 @@ C:\ElevenFiftyProjects\SocialMedia\SocialMedia.Data\obj\Debug\SocialMedia.Data.p
 C:\ElevenFiftyProjects\SocialMedia\SocialMedia.Data\obj\Debug\SocialMedia.Data.Migrations.InitialCreate.resources
 C:\ElevenFiftyProjects\SocialMedia\SocialMedia.Data\obj\Debug\SocialMedia.Data.csproj.GenerateResource.cache
 C:\ElevenFiftyProjects\SocialMedia\SocialMedia.Data\obj\Debug\SocialMedia.Data.Migrations.InitialMigration.resources
+C:\ElevenFiftyProjects\SocialMedia\SocialMedia.Data\obj\Debug\SocialMedia.Data.Migrations.migration2.resources
+C:\ElevenFiftyProjects\SocialMedia\SocialMedia.Data\obj\Debug\SocialMedia.Data.Migrations.reply.resources
